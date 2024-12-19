@@ -1,0 +1,10 @@
+D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\target\wasm32-unknown-unknown\release\deps\libppv_lite86-7c13723a730a7956.rmeta: C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src/lib.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src\soft.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src\types.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src\generic.rs
+
+D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\target\wasm32-unknown-unknown\release\deps\libppv_lite86-7c13723a730a7956.rlib: C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src/lib.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src\soft.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src\types.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src\generic.rs
+
+D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\target\wasm32-unknown-unknown\release\deps\ppv_lite86-7c13723a730a7956.d: C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src/lib.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src\soft.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src\types.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src\generic.rs
+
+C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src/lib.rs:
+C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src\soft.rs:
+C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src\types.rs:
+C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\ppv-lite86-0.2.20\src\generic.rs:

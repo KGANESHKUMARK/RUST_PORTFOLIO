@@ -1,0 +1,1 @@
+D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\target\wasm32-unknown-unknown\release\librust_frontend.rlib: D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\src\lib.rs

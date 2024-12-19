@@ -1,0 +1,9 @@
+D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\target\wasm32-unknown-unknown\release\deps\libwasm_bindgen_futures-145e3194d4c5d5d6.rmeta: C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.49\src/lib.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.49\src\queue.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.49\src\task\singlethread.rs
+
+D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\target\wasm32-unknown-unknown\release\deps\libwasm_bindgen_futures-145e3194d4c5d5d6.rlib: C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.49\src/lib.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.49\src\queue.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.49\src\task\singlethread.rs
+
+D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\target\wasm32-unknown-unknown\release\deps\wasm_bindgen_futures-145e3194d4c5d5d6.d: C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.49\src/lib.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.49\src\queue.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.49\src\task\singlethread.rs
+
+C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.49\src/lib.rs:
+C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.49\src\queue.rs:
+C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\wasm-bindgen-futures-0.4.49\src\task\singlethread.rs:

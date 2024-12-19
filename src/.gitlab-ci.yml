@@ -1,0 +1,91 @@
+stages:
+  - build
+  - test
+  - coverage
+  - docker_build
+
+variables:
+  RUST_IMAGE: "rust:latest"
+  DOCKER_DRIVER: overlay2
+
+before_script:
+  - docker pull $RUST_IMAGE
+
+build_dev:
+  stage: build
+  image: $RUST_IMAGE
+  script:
+    - cargo build
+  artifacts:
+    paths:
+      - target/debug/
+
+build_release:
+  stage: build
+  image: $RUST_IMAGE
+  script:
+    - cargo build --release
+  artifacts:
+    paths:
+      - target/release/
+
+build_test:
+  stage: build
+  image: $RUST_IMAGE
+  script:
+    - CARGO_PROFILE=test cargo build
+  artifacts:
+    paths:
+      - target/test/
+
+build_qa:
+  stage: build
+  image: $RUST_IMAGE
+  script:
+    - CARGO_PROFILE=qa cargo build
+  artifacts:
+    paths:
+      - target/qa/
+
+build_prod:
+  stage: build
+  image: $RUST_IMAGE
+  script:
+    - CARGO_PROFILE=prod cargo build
+  artifacts:
+    paths:
+      - target/prod/
+
+test:
+  stage: test
+  image: $RUST_IMAGE
+  script:
+    - cargo test
+
+coverage:
+  stage: coverage
+  image: $RUST_IMAGE
+  before_script:
+    - apt-get update && apt-get install -y libssl-dev pkg-config
+    - cargo install cargo-tarpaulin
+  script:
+    - cargo tarpaulin --out Xml
+  artifacts:
+    paths:
+      - tarpaulin-report.xml
+  coverage: '/^TOTAL.*\s+([\d\.]+)%/'
+  after_script:
+    - curl -s https://codecov.io/bash | bash -s -- -f tarpaulin-report.xml
+
+docker_build:
+  stage: docker_build
+  image: docker:latest
+  services:
+    - docker:dind
+  variables:
+    DOCKER_DRIVER: overlay2
+  script:
+    - docker build -t yourusername/rust_dev .
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+    - docker tag yourusername/rust_dev $CI_REGISTRY_IMAGE:latest
+    - docker push $CI_REGISTRY_IMAGE:latest

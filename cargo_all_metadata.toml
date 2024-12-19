@@ -1,0 +1,35 @@
+[package]
+name = "rust_dev"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A simple Rust project"
+license = "MIT"
+repository = "https://github.com/yourusername/rust_dev"
+documentation = "https://docs.rs/rust_dev"
+homepage = "https://github.com/yourusername/rust_dev"
+readme = "README.md"
+keywords = ["rust", "example", "project"]
+categories = ["command-line-utilities"]
+workspace = "workspace"
+default-run = "rust_dev"
+build = "build.rs"
+publish = true
+resolver = "2"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+
+[dev-dependencies]
+# Add development dependencies here
+
+[build-dependencies]
+# Add build dependencies here
+
+[features]
+# Define optional features here
+
+[workspace]
+# Define workspace members here

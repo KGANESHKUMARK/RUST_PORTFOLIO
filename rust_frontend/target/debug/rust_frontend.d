@@ -1,0 +1,1 @@
+D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\target\debug\rust_frontend.exe: D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\src\lib.rs D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\src\main.rs

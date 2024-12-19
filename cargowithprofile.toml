@@ -1,0 +1,39 @@
+[package]
+name = "rust_dev"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "A simple Rust project"
+license = "MIT"
+repository = "https://github.com/yourusername/rust_dev"
+documentation = "https://docs.rs/rust_dev"
+homepage = "https://github.com/yourusername/rust_dev"
+readme = "README.md"
+keywords = ["rust", "example", "project"]
+categories = ["command-line-utilities"]
+default-run = "rust_dev"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+
+[profile.dev]
+opt-level = 0
+debug = true
+
+[profile.release]
+opt-level = 3
+debug = false
+
+[profile.test]
+opt-level = 1
+debug = true
+
+[profile.qa]
+opt-level = 2
+debug = true
+
+[profile.prod]
+opt-level = 3
+debug = false

@@ -1,0 +1,10 @@
+D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\target\release\deps\libaskama_shared-6b060d56a17fe8fb.rmeta: C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\lib.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\error.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\filters\mod.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\helpers\mod.rs
+
+D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\target\release\deps\libaskama_shared-6b060d56a17fe8fb.rlib: C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\lib.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\error.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\filters\mod.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\helpers\mod.rs
+
+D:\KGK\Job\Codings\Rust\Rust_Project\Rust_Portfolio\rust_frontend\target\release\deps\askama_shared-6b060d56a17fe8fb.d: C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\lib.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\error.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\filters\mod.rs C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\helpers\mod.rs
+
+C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\lib.rs:
+C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\error.rs:
+C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\filters\mod.rs:
+C:\Users\Ganesh\ AI\.cargo\registry\src\index.crates.io-6f17d22bba15001f\askama_shared-0.9.1\src\helpers\mod.rs:

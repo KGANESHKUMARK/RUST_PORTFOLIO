@@ -1,0 +1,7 @@
+[server]
+address = "127.0.0.1"
+port = 8080
+
+[splunk]
+hec_url = "http://localhost:8088/services/collector"
+hec_token = "your_hec_token_here"
